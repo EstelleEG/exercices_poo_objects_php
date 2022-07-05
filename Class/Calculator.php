@@ -16,7 +16,8 @@ class Calculator {
     public function __construct()//called when we create the object with 'new'
     {
         self::$nbCalculator++; // or :  calculator::$nbCalculator++; //self refers to the class
-
+    }
+    
     public function addition(int $a, int $b) {
         $result = $a + $b;
         $this->total += $result; //i add the result to the total of the current object 
