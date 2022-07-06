@@ -1,8 +1,8 @@
 <?php 
-declare(strict_types=1); // I use the striict type mode in True, I active it so I have to respect the type
+declare(strict_types=1); // I use the strict type mode in True, I active it so I have to respect the type
 
 //Je fais un require de ma class
-require_once('./Class/Cart.php');
+//require_once('./Class/Cart.php');
 
 //I create a new object from a class
 //$cart = new Cart();
